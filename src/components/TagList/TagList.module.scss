@@ -1,0 +1,24 @@
+.tags {
+  list-style: none;
+  margin: 1.5em 0;
+  padding: 0;
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+
+  li {
+    margin: 0;
+  }
+}
+
+.tag {
+  font-family: 'Oxanium', sans-serif;
+  font-size: 0.9em;
+  margin-inline-end: 0;
+}
+
+@media screen and (min-width: 961px) {
+  .tag {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,45 @@
+.brief {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, .05);
+  border-radius: .5em;
+  padding: 1em 0.75em;
+  color: white;
+  margin-bottom: 0.75em;
+  cursor: pointer;
+
+  h2 {
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: 500;
+  }
+
+  p {
+    margin: .5em 0 0;
+    font-size: 1em;
+    color: lightsteelblue;
+  }
+  
+  em {
+    font-size: 1em;
+    color: gold;
+    font-style: normal;
+  }
+}
+
+.star {
+  width: 2em;
+  order: 1;
+}
+
+@media screen and (min-width: 961px) {
+  .brief {
+    flex: 1 0 300px;
+    margin-bottom: 0;
+    transition: background-color 300ms ease;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, .15);
+    }
+  }
+}

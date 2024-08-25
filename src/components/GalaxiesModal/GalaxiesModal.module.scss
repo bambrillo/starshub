@@ -1,0 +1,60 @@
+.modal {
+  font-family: 'Oxanium', sans-serif;
+  font-size: 1em;
+  border-color: lightblue;
+  color: lightblue;
+
+  p {
+    font-size: 1.25em;
+  }
+}
+
+.wrapper {
+  background-color: var(--galaxy-color);
+  padding: 1em;
+  border-radius: .5em;
+}
+
+.list {
+  list-style: none;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+
+  li {
+    margin: 0;
+  }
+
+  span {
+    display: flex;
+    padding: 2em;
+    line-height: 1;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oxanium', sans-serif;
+    color: var(--galaxy-color);
+    background-color: hsl(203, 92%, 75%);
+    border-radius: .5em;
+  }
+
+  button {
+    display: flex;
+    width: 100%;
+    padding: 2em;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .08);
+    color: lightgrey;
+    border: none;
+    font-family: 'Oxanium', sans-serif;
+    cursor: crosshair;
+    border-radius: .5em;
+
+    &:hover {
+      background-color: lightblue;
+      color: var(--galaxy-color);
+      transition: all 300ms ease;
+    }
+  }
+}
