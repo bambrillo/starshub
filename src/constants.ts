@@ -1,0 +1,4 @@
+const PER_PAGE = 30;
+const DEFAULT_PAGE_NUM = 1;
+
+export { PER_PAGE, DEFAULT_PAGE_NUM };
